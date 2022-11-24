@@ -1,0 +1,38 @@
+#test {
+    width: 100%;
+    display: flex;
+    padding: 30px;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+#test select {
+    width: 300px;
+    padding: 6px;
+    font-weight: 600;
+    font-size: 16px;
+    background-color: rgb(198, 208, 205);
+    border-radius: 5px;
+    color: #2b55a6;
+    border: none;
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
+    box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+}
+
+#test button:hover {
+    opacity: 0.5;
+}
+
+#inputCompany {
+    width: 350px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    background-color: rgb(198, 208, 205);
+    font-weight: 600;
+    color: #2b55a6;
+    padding: 6px;
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
+    box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+}
